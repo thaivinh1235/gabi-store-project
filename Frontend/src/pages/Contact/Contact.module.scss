@@ -1,0 +1,126 @@
+.wrapper {
+    width: var(--full-width);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: var(--background-color);
+}
+
+.inner {
+    width: var(--default-layout-width);
+    // background-color: #ccc;
+    // height: 1000px;
+    margin-top: 20px;
+    text-align: center;
+    /* width: 100px; */
+    // background-color: red;
+}
+
+.inner-title {
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.sub-title {
+    margin-top: 30px;
+    color: var(--text-color);
+    font-weight: 700;
+}
+
+.sub-content {
+    margin-top: 10px;
+    color: var(--text-color);
+    opacity: 0.8;
+}
+
+// Form-group
+form {
+    margin-top: 20px;
+}
+
+.form-group {
+    // background-color: yellow;
+    display: flex;
+    flex-direction: column;
+    // align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+    // padding-left: 20px;
+}
+.form-title {
+    // margin-left: 20px;
+    margin-bottom: 10px;
+}
+
+.form-input {
+    border-radius: 20px;
+    padding-left: 20px;
+    height: 50px;
+    border: 1px solid #ccc;
+}
+
+.submit { 
+    width: var(--default-layout-width)
+}
+
+.form-btn {
+    margin-top: 20px;
+    height: 60px;
+    background-color: var(--primary);
+    color: var(--white-color);
+    border-radius: 20px;
+    font-size: 2rem;
+
+    &:hover {
+        transition: .2s;
+        opacity: 0.8;
+    }
+}
+
+// Sub inner wrapper
+.sub-inner-wrapper {
+    display: flex;
+    margin-top: 20px;
+    text-align: start;
+    align-items: center;
+    line-height: 2;
+    user-select: none;
+}
+.sub-inner-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.left-1,
+.left-2,
+.left-3 {
+    margin-top: 20px;
+}
+
+.sub-inner {
+    width: 50%;
+    // background-color:bisque;
+}
+
+.sub-inner-title {
+    font-weight: 700;
+}
+
+.sub-inner-title {
+}
+
+.sub-inner-content {
+    color: var(--text-color);
+}
+
+.def {
+    width: 50%;
+    // background-color:purple;
+}
+
+.def iframe {
+    width: 100%;
+    height: 450px;
+    border: 0;
+}
+

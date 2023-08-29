@@ -1,0 +1,39 @@
+.wrapper {
+    width: 100%;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12);
+    // display: flex;
+    // justify-content: center;
+    position: relative;
+}
+.wrapper__banner {
+    width: 100%;
+}
+
+.wrapper__content {
+    // width: 300px;
+    // height: 200px;
+    // background-color: aqua;
+    position: absolute;
+    top: 80%;
+    bottom: 50%;
+    // right: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+   
+    font-size: 3rem;
+    color: var(--white-color);
+}
+
+.wrapper__content h2,
+.wrapper__content p{
+    text-align: center;
+    text-shadow: 2px 2px 4px #000000;
+    text-transform: uppercase;
+}
+
+.wrapper .inner {
+    height: 100%;
+    width: var(--default-layout-width);
+    display: flex;
+    justify-content: space-between;
+}

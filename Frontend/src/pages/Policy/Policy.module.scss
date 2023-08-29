@@ -1,0 +1,30 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+
+.inner {
+    width: var(--default-layout-width);
+    // background-color: #ccc;
+    // margin: 20px 0;
+    margin-bottom: 20px;
+    
+}
+
+.inner h3, 
+.inner p  { 
+    margin: 20px 0  ;
+
+}
+.inner span { 
+    font-weight: bold;
+}
+
+.return {
+    margin-top: 20px;
+}

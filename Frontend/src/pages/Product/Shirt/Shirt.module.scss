@@ -1,0 +1,115 @@
+.wrapper__total {
+    background-color: rgb(233, 242, 255, 0.5);
+    height: 1600px;
+}
+
+.wrapper {
+    width: 100%;
+    height: calc(var(--default-layout-header-height) + 700px);
+    // background-color: red;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    // margin-top: 40px;
+    // margin-bottom: 100px;
+}
+h1 {
+    padding-top: 30px;
+    text-align: center;
+    display: block;
+    text-transform: uppercase;
+}
+.title {
+    display: inline-block;
+}
+.inner {
+    display: grid;
+    width: var(--default-layout-width);
+    height: 100%;
+    // background-color: #e9f2ff;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding-left: 24px;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.inner__item {
+    height: 400px;
+    width: 200px;
+    // background-color: aqua;
+    margin-top: 70px;
+}
+
+.inner__item-img {
+    width: calc(100% + 170px);
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    &:link,
+    &:visited {
+        transition: all 0.2s;
+        padding: 15px 40px;
+    }
+
+    &:after {
+        content: '';
+        display: inline-block;
+        height: 100%;
+        width: 100%;
+
+        top: 0;
+        left: 0;
+        z-index: -1;
+        border-radius: 100px;
+        transition: all 0.4s;
+    }
+
+    &:hover {
+        transform: translateY(-1px);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, .2);
+    }
+
+
+    &:after {
+        background-color: #fff;
+    } 
+
+    
+}
+
+.inner__item-content {
+    width: calc(100% + 170px);
+    height: 100px;
+    // background-color: #ccc;
+    p {
+        // background-color: red;
+        word-wrap: break-word;
+    }
+    // background-color: red;
+}
+
+.inner__item-content-title-link {
+    font-weight: 400;
+}
+
+.inner__item-content-title {
+    // font-style: italic;
+}
+.inner__item-content--inner { 
+    display: flex;
+    justify-content: space-between;
+}
+
+.inner__item-content-price {
+    color: var(--text-color);
+    font-weight: 600;
+    user-select: none;
+
+}
+
+
+.inner__item-content-buy {
+    // font-weight: 400;
+    color: #aaa;
+    user-select: none;
+}

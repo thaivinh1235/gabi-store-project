@@ -1,0 +1,207 @@
+{
+  "shirts": [
+    {
+      "id": 1,
+      "name": "Áo thun Cotton Care & Share The Moments",
+      "price": "249.000",
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/July2023/HN-TU_HAO-3.jpg",
+      "buy": 10
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/June2023/Quan_lot_Gym_Powerfit-listing-26.jpg",
+      "name": "Áo thun gym Powerfit - Xám đậm",
+      "price": "299.000",
+      "buy": 30,
+      "id": 2
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/June2023/Ao_thun_Cotton_Summer_Coolwaves-23-5.jpg",
+      "name": "Áo thun Cotton Summor Coolwaves",
+      "price": "199.000",
+      "buy": 50,
+      "id": 3
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/April2023/10krun-front.jpg",
+      "name": "Áo thun chạy bộ Quick Dry in Graphic",
+      "price": "129.000",
+      "buy": 122,
+      "id": 4
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/zzCotton_100_-_Xanh_2D_-_Front_1.jpg",
+      "name": "Áo thun nam Cotton Basics - Xanh đậm",
+      "price": "149.000",
+      "buy": 210,
+      "id": 5
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/Ao_thun_chay_bo_nam_Essential_Fast__Free_Run5.jpg",
+      "name": "Áo thun chạy bộ nam",
+      "price": "159.000",
+      "buy": 22,
+      "id": 6
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2023/sat-nach-aqua.jpg.png",
+      "name": "Áo sát nách thể thao Dri-Breathe",
+      "price": "189.000",
+      "buy": 39,
+      "id": 7
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/June2023/Drop_Arm_Gym_Powerfit_Xanh_ngoc_2.jpg",
+      "name": "Áo Drop Arm Gym Powerfit - Xanh ngọc",
+      "price": "199.000",
+      "buy": 102,
+      "id": 8
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/May2022/34-0.jpg",
+      "name": "Áo Polo ProMax-S2 thoáng khí",
+      "price": "216.000",
+      "buy": 131,
+      "id": 9
+    }
+  ],
+  "polos": [
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/November2021/IMG_64714.jpg",
+      "name": "Áo Polo thể thao Promax thoáng khí",
+      "price": "239.000",
+      "buy": 302,
+      "id": 1
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/June2022/DSC00703_copy.jpg",
+      "name": "Áo Polo Woven Excool - Xám",
+      "price": "299.000",
+      "buy": 120,
+      "id": 2
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/June2023/Ao_Cuban_Collar_Shirt_Coolwaves_-_mau_Xanh_Navy-9.jpg",
+      "name": "Áo Polo Collar - màu xanh Navy",
+      "price": "399.000",
+      "buy": 450,
+      "id": 3
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/quality=80/image/June2023/random-banner-ao_nam-2.jpg",
+      "name": "Áo Polo thoáng mát - Xanh ngọc",
+      "price": "209.000",
+      "buy": 305,
+      "id": 4
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/April2023/2uIMG_1077_copy.jpg",
+      "name": "Áo sơ mi dài tay - Xanh nhạt",
+      "price": "449.000",
+      "buy": 499,
+      "id": 5
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/April2023/uIMG_0963_copy.jpg",
+      "name": "Áo sơ mi tay dài - Xám tro",
+      "price": "449.000",
+      "buy": 694,
+      "id": 6
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/April2023/somicfxam4.jpg",
+      "name": "Áo sơ mi tay dài - Xám nhạt",
+      "price": "449.000",
+      "buy": 594,
+      "id": 7
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/April2023/somicfaqua2_48.jpg",
+      "name": "Áo sơ mi tay dài - Xanh aqua",
+      "price": "449.000",
+      "buy": 410,
+      "id": 8
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/April2023/cae28.jpg",
+      "name": "Áo sơ mi tay dài - Trắng",
+      "price": "449.000",
+      "buy": 500,
+      "id": 9
+    }
+  ],
+  "pants": [
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/sDSC04326-copy1_54.jpg",
+      "name": "Quần short nam thể thao thoáng khí - Xám xanh",
+      "price": "149.000",
+      "buy": 41,
+      "id": 1
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/xam-nhat-1.jpg",
+      "name": "Quần short nam thể thao",
+      "price": "115.000",
+      "buy": 492,
+      "id": 2
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/December2022/daily-shorts-xam-2.jpg",
+      "name": "Quần short nam Daily Short (có túi sau)",
+      "price": "189.000",
+      "buy": 75,
+      "id": 3
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/June2022/graphene_111.jpg",
+      "name": "Quần short nam thể thao co dãn Graphene",
+      "price": "179.000",
+      "buy": 84,
+      "id": 4
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/August2022/DSC01693-copymovexanh.jpg",
+      "name": "Quần short nam Movement co giãn - Xanh rêu",
+      "price": "167.000",
+      "buy": 694,
+      "id": 5
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/June2022/DSC07211_copy.jpg",
+      "name": "Quần short thể thao Function",
+      "price": "99.000",
+      "buy": 784,
+      "id": 6
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/Quan_short_nam_the_thao_722_New_Ultra_xam_nhat.jpg",
+      "name": "Quần short nam thể thao New Ultra",
+      "price": "129.000",
+      "buy": 421,
+      "id": 7
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/November2022/quan-short-promax-s1-xanh-navy-4.jpg",
+      "name": "Quần short nam ProMax thoáng khí - Xanh Navy",
+      "price": "189.000",
+      "buy": 210,
+      "id": 8
+    },
+    {
+      "img": "https://media.coolmate.me/cdn-cgi/image/width=672,height=990,quality=85,format=auto/uploads/March2023/s1DSC04215-copy12_90.jpg",
+      "name": "Quần short nam thể thao thoáng khí - Xám chỉ",
+      "price": "216.000",
+      "buy": 102,
+      "id": 9
+    }
+  ],
+  "accounts": [
+    {
+      "id": 1,
+      "name": "Huy",
+      "phone": "trandoquanghuy123@gmail.com123",
+      "email": "trandoquanghuy123@gmail.com231312",
+      "registerAccount": "Trần123",
+      "password": "123"
+    }
+  ]
+}

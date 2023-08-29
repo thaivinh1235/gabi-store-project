@@ -1,0 +1,80 @@
+// Reset CSS
+@import 'normalize.css';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;1,300;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    // transition: all 0.3s ease-in-out;
+}
+
+:root {
+    --primary: #fe2c55;
+    --sub-primary: #fe2c56a4;
+    --black-color: #000;
+    --text-color: #333;
+    --sub-color: #fff;
+    --white-color: #fff;
+    // Default Layout
+    --default-layout-header-height: 60px;
+    --default-layout-width: 1230px;
+    --full-width: 100%;
+    --default-layout-height-footer: 194px;
+
+    // Background color
+    --background-color: rgb(233, 242, 255, 0.5);
+
+    // Button height
+    --button-height: 50px;
+
+    // dark mode
+    --body_background: white;
+    --body_color: black;
+    --link_color: navy;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+[data-theme="light"] {
+    --primary: #fe2c55;
+    --sub-primary: #fe2c56a4;
+    --black-color: #000;
+    --text-color: #333;
+    --sub-color: #fff;
+    --white-color: #fff;
+    --background-color: rgb(233, 242, 255, 0.5);
+
+}
+
+[data-theme="dark"] {
+    --primary: #fe2c55;
+    --sub-primary: #fe2c56a4;
+    --black-color: #ffffff;
+    --text-color: #333;
+    --sub-color: #000000;
+    --white-color: #000000;
+    --background-color: yellow;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-rendering: optimizeSpeed; // tối ưu tốc độ hiện font
+}
+
+button,
+input,
+[tabindex] {
+    outline: none;
+    border: none;
+}
+
+a[href] {
+    color: var(--text-color);
+    text-decoration: none;
+}

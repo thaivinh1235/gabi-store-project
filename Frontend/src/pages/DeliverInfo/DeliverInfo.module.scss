@@ -1,0 +1,190 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.wrapper-title {
+    width: var(--default-layout-width);
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper-title span {
+    color: #9b6fd2;
+    font-style: italic;
+    font-weight: 600;
+    &:hover {
+        cursor: pointer;
+        text-decoration: underline;
+    }
+
+    &:active {
+        opacity: 0.8;
+    }
+}
+
+.form-field {
+    width: var(--default-layout-width);
+}
+
+.form-field p {
+    font-size: 1.2rem;
+}
+
+.form-field span {
+    color: #18a0fb;
+
+    &:hover {
+        text-decoration: underline;
+        cursor: pointer;
+    }
+}
+
+.form-field .btn-pay {
+    width: 100%;
+    padding: 24px;
+    margin: 20px 0;
+    border-radius: 40px;
+    background-color: var(--black-color);
+    color: var(--white-color);
+    font-size: 1.8rem;
+
+    &:hover,
+    &:active {
+        cursor: pointer;
+        opacity: 0.9;
+    }
+}
+
+.form-input--twice {
+    display: flex;
+}
+
+.form-input--twice__input {
+    width: var(--default-layout-width);
+    height: var(--button-height);
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 0 24px;
+    margin-top: 20px;
+    transition: 0.25s ease;
+
+    &:focus {
+        border-color: #6a5af9;
+    }
+}
+
+.form-input {
+    width: var(--default-layout-width);
+    height: var(--button-height);
+    border: 1px solid #eee;
+    border-radius: 10px;
+    padding: 0 24px;
+    margin-top: 20px;
+    transition: 0.25s ease;
+
+    &:focus {
+        border-color: #6a5af9;
+    }
+}
+
+.form-input__login {
+    width: 100%;
+    height: var(--button-height);
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #000;
+    color: var(--white-color);
+
+    &:hover {
+        cursor: pointer;
+    }
+    &:active {
+        opacity: 0.8;
+        transition: 0.25s ease-in;
+    }
+}
+
+.form-input__login--facebook {
+    width: 100%;
+    height: var(--button-height);
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #3b5998;
+    color: var(--white-color);
+
+    &:hover {
+        cursor: pointer;
+    }
+    &:active {
+        opacity: 0.9;
+        transition: 0.25s ease-in;
+    }
+}
+
+.form-input__login--google {
+    width: 100%;
+    height: var(--button-height);
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: #e4e4e4;
+    color: var(--text-color);
+
+    &:hover {
+        cursor: pointer;
+    }
+    &:active {
+        opacity: 0.9;
+        transition: 0.25s ease-in;
+    }
+}
+
+.form-sub {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.form-sub p {
+    color: #18a0fb;
+    font-style: italic;
+    margin-bottom: 20px;
+
+    &:hover {
+        cursor: pointer;
+    }
+
+    &:active {
+        opacity: 0.7;
+    }
+}
+.method {
+    margin-top: 20px;
+    // height: 1000px;
+    // background-color: #cccc;
+}
+.method-cod {
+    width: 100%;
+    padding: 10px 24px;
+    margin: 20px 0;
+    border-radius: 20px;
+    border: 1px solid #eee;
+    display: flex;
+    cursor: pointer;
+    &:hover {
+        border-color: #18a0fb;
+    }
+}
+
+.method-cod-radio:hover {
+    cursor: pointer;
+    // flex: 1;
+}
+
+.method-cod__name {
+    margin-left: 20px;
+}

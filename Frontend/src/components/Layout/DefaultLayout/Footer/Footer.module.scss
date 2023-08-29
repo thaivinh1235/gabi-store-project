@@ -1,0 +1,105 @@
+// .footer {
+//     width: 100%;
+//     height: var(--default-layout-height-footer);
+//     background-color: #313131;
+//     color: #fff;
+//     display: flex;
+//     justify-content: center;
+//     align-items: center;
+// }
+
+// .footer_inner {
+//     width: var(--default-layout-width);
+//     height: 100%;
+//     display: flex;
+//     justify-content: space-evenly;
+//     align-items: center;
+//     img {
+//         width: 105px;
+//         height: 100%;
+//     }
+// }
+
+// .footer_innner--left {
+//     margin-right: 24px;
+//     font-size: 1.8rem;
+// }
+
+// .footer_inner--left p {
+//     font-size: 1.8rem;
+// }
+
+// .footer_innner--right {
+//     line-height: 2;
+//     text-align: justify;
+//     font-size: 1.8rem;
+// }
+
+.footer {
+    width: 100%;
+    background: #343434;
+    padding-top: 50px;
+    color: aliceblue;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.container {
+    width: var(--default-layout-width);
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-content {
+    h3 {
+        // width: 300px;
+        font-size: 28px;
+        margin-bottom: 15px;
+        // text-align: center;
+        margin-left: 5px;
+    }
+    p {
+        width: 290px;
+        margin: auto;
+        padding: 7px;
+    }
+
+    .brand {
+        line-height: 233px;
+        text-decoration:overline;
+        text-transform: uppercase;
+        letter-spacing: 4px;
+    }
+
+    .list {
+        padding: 0;
+        li {
+            text-align: center;
+            list-style-type: none;
+            padding: 5px;
+            position: relative;
+            color: aliceblue;
+        }
+        li::before {
+            content: '';
+            position: absolute;
+            transform: translate(-50%, -50%);
+            left: 50%;
+            top: 100%;
+            width: 0;
+            height: 2px;
+            background: #f18930;
+            transition-duration: 0.5s;
+        }
+        li:hover::before {
+            width: 70px;
+        }
+        a {
+            text-decoration: none;
+            color: white;
+        }
+        a:hover {
+            color: #f18930;
+        }
+    }
+}

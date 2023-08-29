@@ -1,0 +1,281 @@
+// .wrapper {
+//     width: 100%;
+//     display: flex;
+//     flex-direction: column;
+//     justify-content: center;
+//     align-items: center;
+//     margin-top: 20px;
+
+// }
+
+// .wrapper-sub {
+//     // background-color: #ccc;
+//     width: 50%;
+//     text-align: center;
+//     font-size: 1.8rem;
+// }
+
+// .wrapper-sub span {
+//     text-align: center;
+//     font-style: italic;
+//     text-decoration: underline;
+//     font-size: 1.6rem;
+//     font-weight: 600;
+
+//     &:hover {
+//         cursor: pointer;
+//     }
+
+//     &:active {
+//         opacity: 0.8;
+//     }
+// }
+
+// .form-field {
+//     width: var(--default-layout-width);
+// }
+
+// .form-input {
+//     width: var(--default-layout-width);
+//     height: var(--button-height);
+//     border: 1px solid #eee;
+//     border-radius: 10px;
+//     padding: 0 24px;
+//     margin-top: 20px;
+//     transition: 0.25s ease;
+
+//     &:focus {
+//         border-color: #6a5af9;
+//     }
+// }
+
+// .form-input__register {
+//     width: 100%;
+//     height: var(--button-height);
+//     margin-top: 20px;
+//     border-radius: 20px;
+//     background-color: #000;
+//     color: var(--white-color);
+
+//     &:hover {
+//         cursor: pointer;
+//     }
+//     &:active {
+//         opacity: 0.8;
+//         transition: 0.25s ease-in;
+//     }
+// }
+
+// .form-input__register--facebook {
+//     width: 100%;
+//     height: var(--button-height);
+//     margin-top: 20px;
+//     border-radius: 20px;
+//     background-color: #3b5998;
+//     color: var(--white-color);
+
+//     &:hover {
+//         cursor: pointer;
+//     }
+//     &:active {
+//         opacity: 0.9;
+//         transition: 0.25s ease-in;
+//     }
+// }
+
+// .form-input__register--google {
+//     width: 100%;
+//     height: var(--button-height);
+//     margin-top: 20px;
+//     border-radius: 20px;
+//     background-color: #E4E4E4;
+//     color: var(--white-color);
+
+//     &:hover {
+//         cursor: pointer;
+//     }
+//     &:active {
+//         opacity: 0.9;
+//         transition: 0.25s ease-in;
+//     }
+// }
+
+// .form-sub {
+//     display: flex;
+//     justify-content: space-between;
+//     margin-top: 20px;
+// }
+
+// .form-sub p {
+//     color: #18A0FB;
+//     font-style: italic;
+//     margin-bottom: 20px;
+
+//     &:hover {
+//         cursor: pointer;
+//     }
+
+//     &:active {
+//         opacity: 0.7;
+//     }
+// }
+
+* {
+    margin: 0;
+    padding: 0;
+    // font-family: 'poppins',sans-serif;
+    box-sizing: border-box;
+}
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    width: 100%;
+
+    background: url('../../img/background4.jpg') no-repeat;
+    // background-color: green;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    height: 1000px;
+}
+
+.form-title {
+    // font-size: 2rem;
+    text-transform: uppercase;
+    font-size: 2em;
+    color: var(--white-color);
+    text-align: center;
+}
+
+.form-box {
+    position: relative;
+    width: 400px;
+    height: 850px;
+    background: transparent;
+    border: 2px solid rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.inputbox {
+    position: relative;
+    margin: 30px 0;
+    width: 310px;
+    border-bottom: 2px solid var(--white-color);
+}
+
+.inputbox .icon {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: var(--white-color);
+}
+
+.inputbox label {
+    position: absolute;
+    top: 50%;
+    left: 5px;
+    transform: translateY(-50%);
+    color: var(--white-color);
+    font-size: 1.6rem;
+    pointer-events: none;
+    transition: 0.5s;
+}
+
+
+input:focus ~ label,
+input:valid ~ label {
+    top: -5px;
+}
+
+.inputbox input{
+    width: 100%;
+    height: 50px;
+    background: transparent;
+    border: none;
+    outline: none;
+    font-size: 1em;
+    padding: 0 35px 0 5px;
+    color: var(--white-color);
+}
+.inputbox .title {
+    padding: 0 12px;
+}
+.form-value .forget {
+    margin: -15px 0 15px;
+    font-size: 0.9em;
+    color: var(--white-color);
+    display: flex;
+    justify-content: space-between;
+}
+
+.forget label input {
+    margin-right: 3px;
+}
+.forget label a {
+    color: var(--white-color);
+    text-decoration: none;
+}
+.forget label a:hover {
+    text-decoration: underline;
+}
+
+.remember-forget {
+    display: flex;
+    justify-content: space-between;
+    font-size: 1.4rem;
+    margin: -15px 0 15px;
+}
+
+.remember-forget label input {
+    accent-color: var(--white-color);
+    margin-right: 3px;
+}
+
+.remember-forget .remember {
+    color: var(--white-color);
+}
+
+.remember-forget .forget-password {
+    color: var(--white-color);
+    &:hover {
+        text-decoration: underline;
+    }
+}
+
+.btn {
+    width: 100%;
+    height: 40px;
+    border-radius: 40px;
+    // background: var(--white-color);
+    border: none;
+    outline: none;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.register {
+    font-size: 1.4rem;
+    color: var(--white-color);
+    text-align: center;
+    margin: 25px 0 10px;
+}
+
+.register label {
+    margin-left: 20px;
+}
+.register .register_btn {
+    text-decoration: none;
+    color: var(--white-color);
+    font-weight: 500;
+    &:hover {
+        text-decoration: underline;
+    }
+}
+

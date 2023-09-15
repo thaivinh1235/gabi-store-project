@@ -28,13 +28,17 @@ import PantsDetail from '../pages/Product/Pants/PantsDetail';
 import PantsAdmin from '../pages/Admin/Products/Pants';
 import PantsEdit from '../pages/Admin/Products/Pants/Edit';
 import Blog from '../pages/Blog';
+import About from '../pages/About';
+import Story from '../pages/Story';
 
 
 // Routes ko đăng nhập vẫn vào dc
 const publicRoutes = [
     { path: '/', component: Home },
+    {path: '/about', component: About},
     { path: '/following', component: Following },
     { path: '/blog', component: Blog },
+    {path: '/story', component: Story},
     { path: '/product', component: Product },
     { path: '/product/polo', component: Polo, type: Polo },
     { path: '/product/polo/:id', component: PoloDetail },

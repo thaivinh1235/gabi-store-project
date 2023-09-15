@@ -1,0 +1,134 @@
+.wrapper {
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: #fff;
+
+    img {
+        width: var(--full-width);
+        object-fit: cover;
+    }
+
+    .inner {
+        width: var(--default-layout-width);
+        // background-color: antiquewhite;
+        display: flex;
+        justify-content: space-between;
+        margin: 40px auto;
+        
+
+
+        .inner-left {
+            flex: 2;
+            .brand {
+                text-transform: uppercase;
+                font-weight: 300;
+                font-size: 1.8rem;
+            }
+            .title {
+                text-transform: uppercase;
+                font-weight: 600;
+                font-size: 3.5rem;
+            }
+
+            .desc {
+                text-transform: uppercase;
+                height: 50px;
+                line-height: 50px;
+                font-size: 2rem;
+                font-weight: 200;
+                font-style: italic;
+                border-radius: 3px;
+                background-color: var(--primary);
+                position: relative;
+
+                &::before {
+                    content: '';
+                    position: absolute;
+                    left: -199px;
+                    top: 0;
+                    bottom: 0;
+                    display: block;
+                    width: 200px;
+                    height: 50px;
+                    background-color: var(--primary);
+                }
+            }
+
+            .content {
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                gap: 40px;
+                font-size: 1.5rem;
+                text-align: justify;
+                font-weight: 200;
+                margin-top: 20px;
+            }
+        }
+
+        .inner-right {
+            margin-left: 50px;
+            flex: 2;
+        }
+    }
+
+    // fashion
+
+    .fashion { 
+        width: var(--default-layout-width);
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 40px auto;
+        gap: 50px;
+
+        &:nth-child(2n) { 
+            flex-direction: row-reverse;
+        }
+
+        .fashion-left { 
+            flex: 2;
+
+            img { 
+                width: 600px;
+                object-fit: cover;
+            }
+        }
+
+        .fashion-right { 
+            flex: 3;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            // align-items: center;
+
+            .title { 
+                text-transform: uppercase;
+                background-color: var(--primary);
+                font-weight: 200;
+                color: var(--white-color);
+                text-align: center;
+            }
+
+            .desc { 
+                margin-top: 20px;
+                text-align: justify;
+                font-size: 1.5rem;
+                font-weight: 200;
+            }
+
+            .logo { 
+                text-decoration: overline;
+                text-transform: uppercase;
+                letter-spacing: 4px;
+                margin: 50px auto;
+                font-size: 4rem;
+                font-weight: 700;
+            }
+        }
+    }
+}

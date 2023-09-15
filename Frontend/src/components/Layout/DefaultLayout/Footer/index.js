@@ -1,80 +1,89 @@
-// import styles from './Footer.module.scss';
-// import classNames from 'classnames/bind';
-
-// const cx = classNames.bind(styles);
-
-// function Footer() {
-//     return (
-//         <div className={cx('footer')}>
-//             <div className={cx('footer_inner')}>
-//                 <div className={cx('footer_innner--left')}>
-
-//                     <h2>COOLMATE luôn lắng nghe bạn</h2>
-//                     <p>
-//                         Chúng tôi luôn trân trọng và mong đợi nhận được mọi ý kiến đóng góp từ khách hàng để có thể nâng
-//                         cấp trải nghiệm dịch vụ và sản phẩm tốt hơn nữa.
-//                     </p>
-//                 </div>
-//                 <div className={cx('footer_innner--right')}>
-//                     <p>Địa chỉ: 165 Trần Trọng Cung, Tân Thuận Đông, Quận 7, Thành phố Hồ Chí Minh</p>
-//                     <p>Hotline 1900.272737 - 028.7777.2737 (8:30 - 22:00)</p>
-//                     <p>Email ....@gmail.com</p>
-//                     <a href='https://www.coolmate.me/' >https://www.coolmate.me/</a>
-//                 </div>
-//             </div>
-//         </div>
-//     );
-// }
-
-// export default Footer;
-
+import React from 'react';
 import { Link } from 'react-router-dom';
 import styles from './Footer.module.scss';
 import classNames from 'classnames/bind';
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faLocation, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
+import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
 // import logo from '../../../../img/logo4.png';
 
 const cx = classNames.bind(styles);
 
 function Footer() {
     return (
-        <footer className={cx('footer')}>
-            <div className={cx('container')}>
-                <div className={cx('footer-content')}>
-                    <h3>Liên hệ với chúng tôi</h3>
-                    <p>Email: GabiHCM@gmail.com</p>
-                    <p>Địa chỉ: 165 Trần Trọng Cung, Q7, TP.Hồ Chí Minh</p>
-                    <p>Hotline: 1900.272737 - 028.7777.2737</p>
-                    <p>Giờ mở cửa: (8:30 - 22:00)</p>
+        <div className={cx('wrapper')}>
+            <div className={cx('inner')}>
+                <div className={cx('content')}>
+                    <div className={cx('inner-left')}>
+                        <ul>
+                            <li>Giới thiệu</li>
+                            <li>
+                                <Link className={cx('link')} to="/about">
+                                    Về chúng tôi
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={cx('link')} to="/product">
+                                    Sản phẩm
+                                </Link>
+                            </li>
+                            <li>
+                                <Link className={cx('link')} to="/story">
+                                    Chuyện cái áo
+                                </Link>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div className={cx('inner-middle')}>
+                        <ul>
+                            <li>Điều khoản</li>
+                            <li>Điều khoản sử dụng</li>
+                            <li>Chính sách bảo mật thông tin</li>
+                        </ul>
+                    </div>
+
+                    <div className={cx('inner-right')}>
+                        <div className={cx('phone')}>
+                            <FontAwesomeIcon icon={faPhone} className={cx('icon')} />
+                            <span>Đặt hàng: 1800 12319</span>
+                        </div>
+
+                        <div className={cx('address')}>
+                            <FontAwesomeIcon icon={faLocationDot} className={cx('icon')} />
+                            <span>Liên hệ</span>
+                            <p>Tầng 3-4 Hub Building 195/10E Điện Biên Phủ, P.15, Q.Bình Thạnh, TP.Hồ Chí Minh</p>
+                        </div>
+                    </div>
                 </div>
 
-                {/* <img src={logo} /> */}
+                <hr />
 
-                <div className={cx('footer-content')}>
-                    <h2 className={cx('brand')}>gabistore</h2>
-                </div>
+                <div className={cx('bottom')}>
+                    <div className={cx('bottom-left')}>
+                        <p>Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN</p>
 
-                <div className={cx('footer-content')}>
-                    <h3>Truy cập nhanh</h3>
-                    <ul className={cx('list')}>
-                        <li>
-                            <Link to="/">Trang chủ</Link>
-                        </li>
-                        <li>
-                            <Link to="/blog">Blog</Link>
-                        </li>
-                        <li>
-                            <Link to="/product">Sản phẩm</Link>
-                        </li>
-                        <li>
-                            <Link to="/contact">Liên hệ</Link>
-                        </li>
-                        <li>
-                            <Link to="a">Feedback</Link>
-                        </li>
-                    </ul>
+                        <p>
+                            Mã số DN: 0312867172 do sở kế hoạch và đầu tư tp. HCM cấp ngày 23/07/2014. Người đại diện:
+                            NGÔ NGUYÊN KHA
+                        </p>
+
+                        <p>
+                            Địa chỉ: 86-88 Cao Thắng, phường 04, quận 3, tp Hồ Chí Minh Điện thoại: (028) 7107 8079
+                            Email: gabistore@gmail.com
+                        </p>
+
+                        <p>© 2014-2022 Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN mọi quyền bảo lưu</p>
+                    </div>
+
+                    <div className={cx('bottom-right')}>
+                        <FontAwesomeIcon icon={faFacebook} className={cx('bottom-icon')} />
+                        <FontAwesomeIcon icon={faInstagram} className={cx('bottom-icon')} />
+                        <span>Hãy theo dõi chúng tôi để nhận được thông báo mới nhất</span>
+                    </div>
                 </div>
             </div>
-        </footer>
+        </div>
     );
 }
 

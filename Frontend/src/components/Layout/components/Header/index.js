@@ -18,10 +18,10 @@ import {
 import Button from '../../../Button';
 import { faUser } from '@fortawesome/free-solid-svg-icons';
 import Menu from '../../../Poppers/Menu';
-import DarkMode from '../../../DarkMode';
 import { useEffect, useState } from 'react';
 import axios from 'axios';
 import Cart from '../../../../pages/Cart';
+import DarkModeToggle from '../../../DarkModeToggle';
 const cx = classNames.bind(styles);
 
 const MENU_ITEMS = [
@@ -92,6 +92,10 @@ function Header() {
                     <ul>
                         <li>
                             <Link to="/">Trang chủ</Link>
+                        </li>
+
+                        <li>
+                            <Link to="/about">Câu chuyện</Link>
                         </li>
 
                         <li>
@@ -177,6 +181,7 @@ function Header() {
                                 </button>
                             </Menu>
                             {/* Dark mode */}
+                            <DarkModeToggle/>
                             {/* <DarkMode/> */}
                         </>
                     )}

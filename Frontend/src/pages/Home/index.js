@@ -11,12 +11,11 @@ import Story from './Story';
 import Category from './Catelog';
 import { useEffect, useState } from 'react';
 import NewProducts from './NewProducts';
+import DarkModeToggle from '../../components/DarkModeToggle';
 
 const cx = classNames.bind(styles);
 
 function Home() {
-   
-
     return (
         <div className={cx('total')}>
             <Slider  />
@@ -27,6 +26,7 @@ function Home() {
             <NewProducts type="GABI Xuân Hè"/>
             <Description />
             <Story />
+
         </div>
     );
 }

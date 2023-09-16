@@ -30,20 +30,23 @@ import PantsEdit from '../pages/Admin/Products/Pants/Edit';
 import Blog from '../pages/Blog';
 import About from '../pages/About';
 import Story from '../pages/Story';
-
+import Rules from '../pages/Rules';
+import Information from '../pages/Information';
 
 // Routes ko đăng nhập vẫn vào dc
 const publicRoutes = [
     { path: '/', component: Home },
-    {path: '/about', component: About},
+    { path: '/about', component: About },
     { path: '/following', component: Following },
     { path: '/blog', component: Blog },
-    {path: '/story', component: Story},
+    { path: '/story', component: Story },
+    { path: '/rules', component: Rules },
+    {path: '/information', component: Information},
     { path: '/product', component: Product },
     { path: '/product/polo', component: Polo, type: Polo },
     { path: '/product/polo/:id', component: PoloDetail },
     { path: '/product/shirt', component: Shirt, type: Shirt },
-    { path: '/product/shirt/:id', component: ShirtDetail},
+    { path: '/product/shirt/:id', component: ShirtDetail },
     { path: '/product/pants', component: Pants, type: Pants },
     { path: '/product/pants/:id', component: PantsDetail },
     // {path: '/product_detail', component: ProductDetail},

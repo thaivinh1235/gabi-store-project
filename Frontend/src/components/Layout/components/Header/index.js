@@ -181,7 +181,7 @@ function Header() {
                                 </button>
                             </Menu>
                             {/* Dark mode */}
-                            <DarkModeToggle/>
+                            {/* <DarkModeToggle/> */}
                             {/* <DarkMode/> */}
                         </>
                     )}

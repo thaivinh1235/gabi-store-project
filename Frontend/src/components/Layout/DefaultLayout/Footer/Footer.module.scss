@@ -16,13 +16,15 @@
         justify-content: space-between;
         margin-top: 20px;
 
+        .link { 
+            color: var(--white-color);
+        }
+
         .inner-left {
             display: flex;
             flex-direction: column;
 
-            .link { 
-                color: var(--white-color);
-            }
+            
             li {
                 list-style: none;
                 position: relative;

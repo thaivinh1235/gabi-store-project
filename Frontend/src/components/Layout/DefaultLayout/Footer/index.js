@@ -38,8 +38,10 @@ function Footer() {
                     <div className={cx('inner-middle')}>
                         <ul>
                             <li>Điều khoản</li>
-                            <li>Điều khoản sử dụng</li>
-                            <li>Chính sách bảo mật thông tin</li>
+                            <li><Link className={cx('link')} to="/rules">Điều khoản sử dụng</Link></li>
+                            <li>
+                                <Link className={cx('link')} to="/information">Chính sách bảo mật thông tin</Link>
+                            </li>
                         </ul>
                     </div>
 

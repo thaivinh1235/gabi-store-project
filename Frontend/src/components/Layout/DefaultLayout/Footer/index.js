@@ -63,7 +63,7 @@ function Footer() {
 
                 <div className={cx('bottom')}>
                     <div className={cx('bottom-left')}>
-                        <p>Công ty cổ phần thương mại dịch vụ Trà Cà Phê VN</p>
+                        <p>Công ty cổ phần thương mại dịch vụ Thời Trang VN</p>
 
                         <p>
                             Mã số DN: 0312867172 do sở kế hoạch và đầu tư tp. HCM cấp ngày 23/07/2014. Người đại diện:

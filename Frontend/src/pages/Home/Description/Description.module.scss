@@ -64,6 +64,11 @@
     display: block;
 }
 
+.description__list li:nth-child(2) { 
+    font-size: 3rem;
+    text-decoration:overline;
+}
+
 .description__list-img { 
     width: 105px;
     height: 100%;

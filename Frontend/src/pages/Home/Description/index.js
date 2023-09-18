@@ -10,11 +10,7 @@ function Description() {
                 <li>
                     CHÚNG TÔI TỰ HÀO KHI MANG LẠI <br /> NHỮNG SẢN PHẨM CHẤT LƯỢNG CHO NGƯỜI VIỆT !
                 </li>
-                <img
-                    src={'https://www.coolmate.me/images/logo-coolmate.svg'}
-                    alt="logo"
-                    className={cx('description__list-img')}
-                />
+                <li>GABISTORE</li>
                 <li>
                     SỰ LỤA CHỌN SỐ MỘT <br /> DÀNH CHO BẠN
                 </li>

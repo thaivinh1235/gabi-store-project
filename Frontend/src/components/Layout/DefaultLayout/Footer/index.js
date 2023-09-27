@@ -4,7 +4,7 @@ import styles from './Footer.module.scss';
 import classNames from 'classnames/bind';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLocation, faLocationDot, faPhone } from '@fortawesome/free-solid-svg-icons';
-import { faFacebook, faInstagram } from '@fortawesome/free-brands-svg-icons';
+import { faFacebook, faInstagram, faTiktok } from '@fortawesome/free-brands-svg-icons';
 // import logo from '../../../../img/logo4.png';
 
 const cx = classNames.bind(styles);
@@ -81,6 +81,7 @@ function Footer() {
                     <div className={cx('bottom-right')}>
                         <FontAwesomeIcon icon={faFacebook} className={cx('bottom-icon')} />
                         <FontAwesomeIcon icon={faInstagram} className={cx('bottom-icon')} />
+                        <FontAwesomeIcon icon={faTiktok} className={cx('bottom-icon')} />
                         <span>Hãy theo dõi chúng tôi để nhận được thông báo mới nhất</span>
                     </div>
                 </div>

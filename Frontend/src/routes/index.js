@@ -17,16 +17,10 @@ import Policy from '../pages/Policy';
 import Contact from '../pages/Contact';
 import Thanks from '../pages/Thanks';
 import ConfirmOrder from '../pages/ConfirmOrder';
-import Admin from '../pages/Admin/Accounts';
-import Create from '../pages/Admin/Accounts/Create';
-import Delete from '../pages/Admin/Accounts/Delete';
-import Edit from '../pages/Admin/Accounts/Edit';
-import Detail from '../pages/Admin/Accounts/Detail';
+import AdminProducts from '../pages/Admin/Products';
 import PoloDetail from '../pages/Product/Polo/PoloDetail';
 import ShirtDetail from '../pages/Product/Shirt/ShirtDetail';
 import PantsDetail from '../pages/Product/Pants/PantsDetail';
-import PantsAdmin from '../pages/Admin/Products/Pants';
-import PantsEdit from '../pages/Admin/Products/Pants/Edit';
 import Blog from '../pages/Blog';
 import About from '../pages/About';
 import Story from '../pages/Story';
@@ -41,7 +35,7 @@ const publicRoutes = [
     { path: '/blog', component: Blog },
     { path: '/story', component: Story },
     { path: '/rules', component: Rules },
-    {path: '/information', component: Information},
+    { path: '/information', component: Information },
     { path: '/product', component: Product },
     { path: '/product/polo', component: Polo, type: Polo },
     { path: '/product/polo/:id', component: PoloDetail },
@@ -59,15 +53,8 @@ const publicRoutes = [
     { path: '/thanks', component: Thanks, layout: NoHeader },
     { path: '/confirm_order', component: ConfirmOrder, layout: HeaderOnly },
     { path: '/cart', component: Cart, layout: HeaderOnly },
-
+    { path: '/adminproduct', component: AdminProducts, layout: NoHeader },
     // -----
-    { path: '/admin', component: Admin, layout: NoHeader },
-    { path: '/admin/accounts/create', component: Create, layout: NoHeader },
-    { path: '/admin/accounts/detail/:empid', component: Detail, layout: NoHeader },
-    { path: '/admin/accounts/delete/:empid', component: Delete, layout: NoHeader },
-    { path: '/admin/accounts/edit/:empid', component: Edit, layout: NoHeader },
-    { path: '/admin/products/pants', component: PantsAdmin, layout: NoHeader },
-    { path: '/admin/products/pants/edit/:empid', component: PantsEdit, layout: NoHeader },
 ];
 
 // Routes phải đăng nhập mới vào dc

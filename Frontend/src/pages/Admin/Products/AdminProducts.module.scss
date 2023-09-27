@@ -1,0 +1,174 @@
+.adminProduct {
+    // background: #f8f8f8;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    .sidebar {
+        position: fixed;
+        width: 250px;
+        height: 100vh;
+        background: #f8f8f8;
+        padding: 20px;
+        z-index: 2;
+
+        .title h2 {
+            text-align: center;
+            margin: 10px 0 60px 0;
+        }
+        .menu {
+            margin-top: 1rem;
+        }
+        .menu a.active {
+            width: 100%;
+            font-size: 1.6rem;
+            color: #000;
+            display: flex;
+            align-items: center;
+            line-height: 40px;
+            margin: 20px 0 20px 0;
+        }
+        .menu a:hover {
+            color: #e2336b;
+        }
+        .menu span {
+            margin-right: 2rem;
+            font-size: 20px;
+        }
+        .menu a:hover::before {
+            content: '';
+            position: absolute;
+            right: 0;
+            width: 2px;
+            height: 17px;
+            background: #e2336b;
+        }
+    }
+    .main-home {
+        position: absolute;
+        width: calc(100% - 250px);
+        min-height: 100vh;
+        top: 0;
+        left: 250px;
+        background: #fff;
+        border-radius: 1rem 0 0 1rem;
+        z-index: 1000;
+        overflow: hidden;
+        // .main-home {
+        //     /* padding: 20px; */
+
+        // }
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #f8f8f8;
+
+            .header-content {
+                display: flex;
+                align-items: center;
+                margin-left: 1100px;
+            }
+            .header-content i {
+                color: #000;
+                font-size: 20px;
+                margin-left: 1rem;
+                font-family: 'Poppins', sans-serif;
+            }
+            .header-content .btn {
+                display: flex;
+                align-items: center;
+                padding: 10px;
+                /* border-radius: 8px;
+                background: var(--gradient); */
+                margin-left: 0.8rem;
+            }
+            .header-content .btn i {
+                color: hsla(0, 0%, 100%, 0.6);
+                margin-right: 10px;
+            }
+            .btn-text {
+                color: #fff;
+            }
+        }
+
+        .content {
+            display: flex;
+            align-items: center;
+            margin: 25px 0 0 0px;
+            margin-left: 60px;
+            width: 130px;
+            height: 40px;
+            background-color: #f8f8f8;
+            border-radius: 10px;
+
+            .icon {
+                margin-right: 5px;
+                opacity: 0.7;
+            }
+            .name-title {
+                margin-left: 5px;
+            }
+            .name-title p {
+                display: flex;
+                align-items: center;
+                font-size: 14px;
+                opacity: 0.7;
+            }
+            .content-title {
+                display: flex;
+                align-items: center;
+                margin-left: 30px;
+            }
+        }
+
+        .content-table {
+            position: relative;
+            margin: 50px 0 0 110px;
+            width: 1065px;
+            height: 900px;
+            background-color: #f8f8f8;
+
+            .products {
+                position: absolute;
+                top: 145px;
+                left: 47px;
+                right: 0;
+                width: 970px;
+                border-collapse: collapse;
+                border: 3px solid #f4f3f8;
+                text-align: center;
+            }
+            .products td {
+                padding: 10px;
+            }
+            .products th {
+                border: 1px solid #f4f3f8;
+                padding: 15px;
+            }
+
+            .products th {
+                background-color: #f4f3f8;
+                font-weight: bold;
+            }
+
+            .products tr:nth-child(even) {
+                background-color: #eee;
+            }
+            i.ri-delete-bin-7-fill {
+                color: red;
+            }
+        }
+
+        .vinh {
+            display: flex;
+            align-items: center;
+        }
+    }
+    /* Main home */
+}
+// :root {
+//     --gradient: linear-gradient(to right, #e2336b, #fcac46);
+// }

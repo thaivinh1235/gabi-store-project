@@ -14,14 +14,14 @@ function AdminProducts() {
                     <h2>GabiStore</h2>
                 </div>
                 <div className={cx('menu')}>
-                    <Link to="#" className={cx('active')}>
+                    <Link to="/adminhome" className={cx('active')}>
                         <span className={cx('icon')}>
                             <i class="fa-solid fa-house"></i>
                         </span>
                         Trang chủ
                     </Link>
 
-                    <Link to="#" className={cx('active')}>
+                    <Link to="" className={cx('active')}>
                         <span className={cx('icon')}>
                             <i class="fa-brands fa-product-hunt"></i>
                         </span>
@@ -29,6 +29,13 @@ function AdminProducts() {
                     </Link>
 
                     <Link to="#" className={cx('active')}>
+                        <span className={cx('icon')}>
+                            <i class="fa-solid fa-users"></i>
+                        </span>
+                        Tài Khoản
+                    </Link>
+
+                    <Link to="/adminfeelback" className={cx('active')}>
                         <span className={cx('icon')}>
                             <i class="fa-solid fa-message"></i>
                         </span>
@@ -71,7 +78,7 @@ function AdminProducts() {
                         </span>
                         <p style={{ opacity: 0.5 }}>-</p>
                         <div className={cx('name-title')}>
-                            <p>Home</p>
+                            <p>Sản Phẩm</p>
                         </div>
                     </div>
                 </div>
@@ -104,11 +111,11 @@ function AdminProducts() {
                                 <td>1.000.000đ</td>
                                 <td>M</td>
                                 <td>100</td>
-                                <td>
-                                    <span>
-                                        <i class="fa-solid fa-wrench " style={{ color: '#983bba' }}></i>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
                                     </span>
-                                    <span>
+                                    <span className={cx('icon-delete')}>
                                         <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
                                     </span>
                                 </td>
@@ -128,11 +135,11 @@ function AdminProducts() {
                                 <td>1.000.000đ</td>
                                 <td>M</td>
                                 <td>100</td>
-                                <td>
-                                    <span>
-                                        <i class="fa-solid fa-wrench " style={{ color: '#983bba' }}></i>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
                                     </span>
-                                    <span>
+                                    <span className={cx('icon-delete')}>
                                         <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
                                     </span>
                                 </td>
@@ -152,11 +159,11 @@ function AdminProducts() {
                                 <td>1.000.000đ</td>
                                 <td>M</td>
                                 <td>100</td>
-                                <td>
-                                    <span>
-                                        <i class="fa-solid fa-wrench " style={{ color: '#983bba' }}></i>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
                                     </span>
-                                    <span>
+                                    <span className={cx('icon-delete')}>
                                         <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
                                     </span>
                                 </td>
@@ -176,11 +183,11 @@ function AdminProducts() {
                                 <td>1.000.000đ</td>
                                 <td>M</td>
                                 <td>100</td>
-                                <td>
-                                    <span>
-                                        <i class="fa-solid fa-wrench " style={{ color: '#983bba' }}></i>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
                                     </span>
-                                    <span>
+                                    <span className={cx('icon-delete')}>
                                         <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
                                     </span>
                                 </td>
@@ -200,11 +207,11 @@ function AdminProducts() {
                                 <td>1.000.000đ</td>
                                 <td>M</td>
                                 <td>100</td>
-                                <td>
-                                    <span>
-                                        <i class="fa-solid fa-wrench " style={{ color: '#983bba' }}></i>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
                                     </span>
-                                    <span>
+                                    <span className={cx('icon-delete')}>
                                         <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
                                     </span>
                                 </td>
@@ -224,11 +231,11 @@ function AdminProducts() {
                                 <td>1.000.000đ</td>
                                 <td>M</td>
                                 <td>100</td>
-                                <td>
-                                    <span>
-                                        <i class="fa-solid fa-wrench " style={{ color: '#983bba' }}></i>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
                                     </span>
-                                    <span>
+                                    <span className={cx('icon-delete')}>
                                         <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
                                     </span>
                                 </td>
@@ -248,11 +255,11 @@ function AdminProducts() {
                                 <td>1.000.000đ</td>
                                 <td>M</td>
                                 <td>100</td>
-                                <td>
-                                    <span>
-                                        <i class="fa-solid fa-wrench " style={{ color: '#983bba' }}></i>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
                                     </span>
-                                    <span>
+                                    <span className={cx('icon-delete')}>
                                         <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
                                     </span>
                                 </td>
@@ -272,11 +279,11 @@ function AdminProducts() {
                                 <td>1.000.000đ</td>
                                 <td>M</td>
                                 <td>100</td>
-                                <td>
-                                    <span>
-                                        <i class="fa-solid fa-wrench " style={{ color: '#983bba' }}></i>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
                                     </span>
-                                    <span>
+                                    <span className={cx('icon-delete')}>
                                         <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
                                     </span>
                                 </td>
@@ -296,11 +303,11 @@ function AdminProducts() {
                                 <td>1.000.000đ</td>
                                 <td>M</td>
                                 <td>100</td>
-                                <td>
-                                    <span>
-                                        <i class="fa-solid fa-wrench " style={{ color: '#983bba' }}></i>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
                                     </span>
-                                    <span>
+                                    <span className={cx('icon-delete')}>
                                         <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
                                     </span>
                                 </td>
@@ -320,11 +327,35 @@ function AdminProducts() {
                                 <td>1.000.000đ</td>
                                 <td>M</td>
                                 <td>100</td>
-                                <td>
-                                    <span>
-                                        <i class="fa-solid fa-wrench " style={{ color: '#983bba' }}></i>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
                                     </span>
-                                    <span>
+                                    <span className={cx('icon-delete')}>
+                                        <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
+                                    </span>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>4343-76</td>
+                                <td>Quần đùi ngắn</td>
+                                <td>
+                                    <img
+                                        src={
+                                            'https://file.hstatic.net/1000075078/file/desktop_c372f0d12f214011806143bb0efb8257.jpg'
+                                        }
+                                        alt="banner"
+                                        style={{ width: '30px', height: '30px' }}
+                                    />
+                                </td>
+                                <td>1.000.000đ</td>
+                                <td>M</td>
+                                <td>100</td>
+                                <td className={cx('icon')}>
+                                    <span className={cx('icon-fix')}>
+                                        <i class="fa-solid fa-wrench "></i>
+                                    </span>
+                                    <span className={cx('icon-delete')}>
                                         <i class="fa-solid fa-trash" style={{ color: '#db1414' }}></i>
                                     </span>
                                 </td>

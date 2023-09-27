@@ -17,7 +17,11 @@ import Policy from '../pages/Policy';
 import Contact from '../pages/Contact';
 import Thanks from '../pages/Thanks';
 import ConfirmOrder from '../pages/ConfirmOrder';
+//
 import AdminProducts from '../pages/Admin/Products';
+import AdminHome from '../pages/Admin/Home';
+import AdminFeelback from '../pages/Admin/Feelback';
+//
 import PoloDetail from '../pages/Product/Polo/PoloDetail';
 import ShirtDetail from '../pages/Product/Shirt/ShirtDetail';
 import PantsDetail from '../pages/Product/Pants/PantsDetail';
@@ -53,7 +57,10 @@ const publicRoutes = [
     { path: '/thanks', component: Thanks, layout: NoHeader },
     { path: '/confirm_order', component: ConfirmOrder, layout: HeaderOnly },
     { path: '/cart', component: Cart, layout: HeaderOnly },
+    //admin
     { path: '/adminproduct', component: AdminProducts, layout: NoHeader },
+    { path: '/adminhome', component: AdminHome, layout: NoHeader },
+    { path: '/adminfeelback', component: AdminFeelback, layout: NoHeader },
     // -----
 ];
 

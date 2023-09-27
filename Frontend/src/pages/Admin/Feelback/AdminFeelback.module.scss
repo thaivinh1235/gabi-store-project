@@ -1,5 +1,4 @@
-.adminProduct {
-    // background: #f8f8f8;
+.admin-feelback {
     font-family: 'Poppins', sans-serif;
     margin: 0;
     padding: 0;
@@ -46,7 +45,7 @@
             background: #e2336b;
         }
     }
-    .main-home {
+    .main-feelback {
         position: absolute;
         width: calc(100% - 250px);
         min-height: 100vh;
@@ -56,7 +55,6 @@
         border-radius: 1rem 0 0 1rem;
         z-index: 1000;
         overflow: hidden;
-        //
         .header {
             display: flex;
             align-items: center;
@@ -91,7 +89,7 @@
             }
         }
         //
-        .content {
+        .content-feelback {
             display: flex;
             align-items: center;
             margin: 25px 0 0 0px;
@@ -117,10 +115,10 @@
             .content-title {
                 display: flex;
                 align-items: center;
-                margin-left: 15px;
+                margin-left: 18px;
             }
         }
-        //code table
+        //
         .content-table {
             position: relative;
             margin: 50px 0 0 110px;
@@ -150,25 +148,32 @@
                 background-color: #f4f3f8;
                 font-weight: bold;
             }
-
+            tbody tr {
+                height: 50px;
+            }
             .products tr:nth-child(even) {
                 background-color: #eee;
             }
             i.ri-delete-bin-7-fill {
                 color: red;
             }
-            .icon .icon-fix {
-                color: #983bba;
-                padding: 10px;
+            i.fa-calendar-week {
+                color: #000;
             }
-            .icon .icon-fix i:hover {
+            .main-icon .icon-detail {
+                color: #c81ec2;
+                padding: 10px;
+                width: 20px;
+                height: 20px;
+            }
+            .main-icon .icon-detail i:hover {
                 transform: scale(2);
             }
-            .icon .icon-delete {
+            .main-icon .icon-delete {
                 color: #db1414;
                 padding: 5px;
             }
-            .icon .icon-delete i:hover {
+            .main-icon .icon-delete i:hover {
                 transform: scale(2);
             }
             //
@@ -184,13 +189,5 @@
                 background: #e2336b;
             }
         }
-
-        .vinh {
-            display: flex;
-            align-items: center;
-        }
     }
 }
-// :root {
-//     --gradient: linear-gradient(to right, #e2336b, #fcac46);
-// }
